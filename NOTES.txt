@@ -1,0 +1,36 @@
+Kazakhstan - published administrative guidance on immigration case handling
+Checked 2026-11-15.
+
+Result: nothing obtained, and nothing that is guidance was found. Procedure is set by legal
+acts: government resolutions (entry and stay of immigrants and migration control, No 148 of
+2012; refugee status, No 183 of 2010), orders of the Minister of Internal Affairs (refugee
+applications, No 496 of 2010; state-service rules) and of the Minister of Labour (work
+permits for employers, No 559 of 2016; kandas status, No 329-Ө-М of 2013). The Migration
+Service Committee of the Ministry of Internal Affairs and the Ministry of Labour publish no
+methodological recommendations or instructions on deciding foreigners' cases: a title search
+of their document lists finds methodological recommendations only on probation, traffic
+inspectors, social work and labour norms.
+
+The procedural acts could not be fetched under the rules of this collection:
+- https://adilet.zan.kz (official legal database). robots.txt (read 2026-11-15) allows "*"
+  except /api/, /search and service pages, but has a separate group for "GPTBot, ClaudeBot,
+  anthropic-ai, Claude-Web, ..." with "Disallow: /". That rule names this client's family of
+  agents, so the whole host was treated as closed. Archive copies were not used either.
+- https://www.gov.kz (portal of all state bodies). robots.txt disallows /uploads/, /legalacts/
+  and /page/ for all agents. Document pages (/org/<body>/documents/details/<id>) are allowed
+  and were read, but they carry only the title and date; the text is an attachment under
+  /uploads/. Most of the migration items there are drafts ("Проект НПА") and amending orders.
+  Pages read: /org/qriim/documents (Ministry of Internal Affairs, incl. Migration Service
+  Committee) filtered by title for "методическ", "мигра", "иностран", "беженц", "оказания
+  государственн", "кандас"; /org/enbek/documents (Ministry of Labour) for "методическ",
+  "иностранн", "кандас".
+The main acts are listed in not-obtained.tsv with a gov.kz page a person can open.
+
+How much real guidance: none is published. Kazakhstan regulates migration case handling
+through registered legal acts (rules of state services, government resolutions), and no
+methodological recommendation, instruction or circular for migration officers is public.
+
+Not checked: egov.kz (applicant information), legalacts.egov.kz (draft acts only).
+
+Re-run: python3 download_kz.py   (re-reads both robots.txt files and reports; downloads
+nothing while they stay as they are)
